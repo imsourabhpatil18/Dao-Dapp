@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.centered-components {
+  display: flex;
+  flex-direction: column; /* Center elements vertically */
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center elements vertically */
+  height: 100%; /* Center within the available height */
+}
+.centered-components input {
+  width: 250px;
+  height: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #eff0f3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #eaf0f2;
+}
+.font {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  color: rgb(22, 20, 20);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #333; /* Change the color as needed */
+  margin: 10px; /* Adjust the margin as needed */
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+a:hover {
+  color: #007bff; /* Change the color for hover effect */
+}
+
+/* for walletConnect */
+
+.wallet-connect-container h3 {
+  font-size: 1.2em;
+  color: #191717;
+  margin-bottom: 8px;
+}
+
+.wallet-connect-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.wallet-connect-container button:hover {
+  background-color: #45a049;
+}

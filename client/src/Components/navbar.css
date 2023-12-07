@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #007bff; /* Change the background color as needed */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px; /* Adjust the height as needed */
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px; /* Adjust the margin as needed */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Add an underline effect on hover */
+  color: #eaf0f2;
+}
