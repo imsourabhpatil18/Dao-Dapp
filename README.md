@@ -7,29 +7,32 @@ This Ethereum smart contract implements a DAO for decentralized decision-making.
 Key Features:
 <br>
 
-Contribution:  Investors can contribute Ether to gain shares in the DAO.
+1) Contribution:  Investors can contribute Ether to gain shares in the DAO.
 <br>
-Proposal Creation:  Investors can propose projects, specifying project details and funding amount.
+2) Proposal Creation:  Investors can propose projects, specifying project details and funding amount.
 <br>
-Voting:  Investors can vote on proposals based on their share ownership.
+3) Voting:  Investors can vote on proposals based on their share ownership.
 <br>
-Execution: Proposals meeting the quorum threshold are executed by the manager.
+4) Execution: Proposals meeting the quorum threshold are executed by the manager.
 <br>
-Transfer of Shares: Investors can transfer shares to others.
+5) Transfer of Shares: Investors can transfer shares to others.
 <br>
-Share Redemption: Investors can redeem their shares for Ether.
+6) Share Redemption: Investors can redeem their shares for Ether.
 <br>
-Usage:
 <br>
 
-Contribute: Send Ether during the participation period to acquire shares.
+*Usage:
 <br>
-Create Proposal: Propose a project by providing project details and funding requirements.
 <br>
-Vote: Investors vote on proposed projects.
+
+1) Contribute: Send Ether during the participation period to acquire shares.
 <br>
-Execution: Manager executes proposals meeting the quorum.
+2) Create Proposal: Propose a project by providing project details and funding requirements.
 <br>
-Transfer Shares: Investors can transfer shares to other addresses.
+3) Vote: Investors vote on proposed projects.
 <br>
-Redeem Shares: Investors can redeem shares for Ether.
+4) Execution: Manager executes proposals meeting the quorum.
+<br>
+5) Transfer Shares: Investors can transfer shares to other addresses.
+<br>
+6) Redeem Shares: Investors can redeem shares for Ether.
